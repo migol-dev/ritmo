@@ -39,5 +39,10 @@ server/data/*.sqlite-journal
 server/data/*.db
 server/data/ritmo-store.json
 
+# Agent tooling & local AI workflow
+.agent/
+.agents/
+.agentignore
+
 # Graphify Knowledge Graph
 graphify-out/
