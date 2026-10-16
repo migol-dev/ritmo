@@ -24,9 +24,7 @@
 - [Inicio rápido](#inicio-rápido)
 - [Scripts disponibles](#scripts-disponibles)
 - [Referencia de la API](#referencia-de-la-api)
-- [Sistema de diseño](#sistema-de-diseño)
 - [Atajos de teclado](#atajos-de-teclado)
-- [Filosofía de diseño](#filosofía-de-diseño)
 - [Licencia](#licencia)
 
 ---
@@ -196,21 +194,6 @@ Base URL: `http://localhost:3001/api`
 
 ---
 
-## Sistema de diseño
-
-Dos arquetipos cromáticos curados, sin excepciones:
-
-| Token | Warm Editorial | Interactive Studio |
-| :--- | :--- | :--- |
-| Canvas | `#FAF8F5` | `#08090A` |
-| Surface | `#F2EFE9` | `#141416` |
-| Primary Ink | `#191918` | `#F7F8F8` |
-| Muted Ink | `#6E6A63` | `#8A8F98` |
-| Accent Primary | `#C86446` (terracota) | `#FF4F00` (naranja internacional) |
-| Accent Forest | `#2D4F3E` (botánico) | `#3B6E56` (esmeralda) |
-
----
-
 ## Atajos de teclado
 
 | Atajo | Acción |
@@ -218,17 +201,6 @@ Dos arquetipos cromáticos curados, sin excepciones:
 | `Ctrl / ⌘ + K` | Abrir o cerrar la paleta de comandos |
 | `Esc` | Cerrar modales, menús y el inspector lateral |
 | `Enter` | Confirmar el formulario inline de nuevo ritual |
-
----
-
-## Filosofía de diseño
-
-El proyecto está regido por un contrato de desarrollo (`.agent/contract.md`) que prohíbe explícitamente:
-
-- **Monoarchivos** — ningún módulo supera las 350 líneas.
-- **Card-itis** — el canvas domina más del 60% de la superficie; nada de rejillas de tres tarjetas idénticas.
-- **Colores genéricos** — la paleta curada es intocable.
-- **UI estática** — toda interacción responde con microfísica (`active:scale-[0.96]`, transiciones de 120 a 500 ms).
 
 ---
 
