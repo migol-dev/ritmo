@@ -1,0 +1,7 @@
+node_modules
+dist
+dist-ssr
+.git
+server/data/*.sqlite
+server/data/*.db
+*.log
